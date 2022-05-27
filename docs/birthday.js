@@ -93,7 +93,7 @@ return Math.floor( Math.random() * (n - m + 1) ) + m;
 }
 
 function animation_scene() {
-if(s <= 250){
+if(s <= 320){
 for(var j = 0; j < arrayImages.length; j ++) {
 // Пересчитать координаты
 arrayImages[j].style.top = (parseFloat(arrayImages[j].style.top) - arrayPoints[j].y) + "px";
